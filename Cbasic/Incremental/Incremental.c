@@ -47,26 +47,3 @@ int main(void)
 	sort(0,LEN-1);
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
