@@ -25,9 +25,9 @@ merge(int start, int mid, int end)
    while (j < n2) /* right[] is not exhausted */
    a[k++] = right[j++];
 }    
-···  
-sort函数：将一个连续的数组**持续地**从中间分成两部分，并执行merge函数。知道不能再分
-···
+```  
+sort函数：将一个连续的数组**持续地**从中间分成两部分，并执行merge函数。知道不能再分   
+ ```
 sort(int start, int end)   
 {   
 	int mid;
