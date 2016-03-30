@@ -17,6 +17,7 @@ void traverse(void (*visit)(link));
 void destroy(void);
 void push(link p);
 link pop(void);
+void seq(link p);
 
 #endif
 
