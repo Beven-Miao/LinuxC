@@ -3,7 +3,7 @@
 #include <errno.h>
 #include <stdlib.h>
 
-void INI_to_XML()
+int main(void)
 {
     FILE *ini,*xml;            //声明两个文件流
     //声明两个缓冲区
@@ -63,10 +63,5 @@ void INI_to_XML()
     //关闭文件
     fcolse(xml);
     fcolse(ini);
-}
-
-int main(int argc, char *argv[])
-{
-    INI_to_XML();
-    return 0;
+return 0;
 }
