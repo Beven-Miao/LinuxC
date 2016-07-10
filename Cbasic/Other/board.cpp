@@ -33,19 +33,6 @@ public:
 	  _board[2][3] = 'o';
   }
 
-  Board3(int boardSize)
-   {
- 	  _boardSize = boardSize;
- 	  _board[0][0] = '2';
- 	  for(int i = 0; i < _boardSize; i++)
- 	  {
- 		  for(int j = 0; i < _boardSize; j++)
- 		  {
- 			  _board[i][j] = EMPTY;
- 		  }
- 	  }
-   }
-
 /**
  *enum state present the type of the board point.
  */
@@ -56,6 +43,19 @@ public:
 	  WALL = 'W',  //!< Location of the Wall
 	  EMPTY = '.'  //!< Present the path that player can walk through
   };
+
+  Board3(int boardSize)
+   {
+ 	  _boardSize = boardSize;
+ 	  //_board[0][0] = '2';
+ 	  for(int i = 0; i < _boardSize; i++)
+ 	  {
+ 		  for(int j = 0; j < _boardSize; j++)
+ 		  {
+ 			  _board[i][j] = '.';//EMPTY;
+ 		  }
+ 	  }
+   }
 
 
   void setState(int row, int col, char state)
@@ -152,6 +152,7 @@ public:
 
 			throw outrange_exception();
 		}
+		displayBoard();
 	}
 
 	std::string getName()

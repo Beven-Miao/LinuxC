@@ -5,7 +5,7 @@
 int main()
 {
 	FILE *fIni = fopen("Ini","r");
-	FILE *fXml = fopen("Xml","aw+");
+	FILE *fXml = fopen("Xml","w");
 	char buf[100];
 	char dbuf[100];
 	char  ch;

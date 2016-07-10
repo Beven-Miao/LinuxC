@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"student.h"
 PSTU head1 = NULL ;
 int sq_stu ;
 #if 1

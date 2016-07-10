@@ -1,5 +1,5 @@
-#include"student.h"
-#include"teacher.h"
+#include <stdio.h>
+
 #if 1
 void admin_menu_1()
 {

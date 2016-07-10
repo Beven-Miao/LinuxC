@@ -5,7 +5,6 @@ port=8080
 cgihome=/cgi-bin
 
 ;Configuration of db
-
 [database]
 server = mysql
 user = myname

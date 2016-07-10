@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"teacher.h"
 int sq_tea ;
 PTEA head = NULL ;
 FILE *fp ;
